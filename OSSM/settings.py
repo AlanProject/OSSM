@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Control',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -76,8 +77,12 @@ WSGI_APPLICATION = 'OSSM.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'ossm',
+        'USER': 'ossmadmin',
+        'PASSWORD': 'ossmpasswd',
+        'HOST': 'localhost',
+        'POST': 3306
     }
 }
 
@@ -119,3 +124,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join('statics', BASE_DIR)
+STATICFILES_DIR = (
+    ('css', os.path.join('css', STATIC_ROOT)),
+    ('js', os.path.join('js', STATIC_ROOT)),
+    ('imgs', os.path.join('imgs', STATIC_ROOT)),
+    ('plugins', os.path.join('plugins', STATIC_ROOT)),
+)
+
+AUTH_USER_MODEL = 'auth.models.MyUser'
+
