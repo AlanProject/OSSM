@@ -474,7 +474,13 @@
       <option name="project" value="LOCAL" />
       <updated>1465204195121</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Custom auth models">
+      <created>1465204370602</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1465204370602</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -516,7 +522,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="authmod" />
-    <option name="LAST_COMMIT_MESSAGE" value="authmod" />
+    <MESSAGE value="Custom auth models" />
+    <option name="LAST_COMMIT_MESSAGE" value="Custom auth models" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
