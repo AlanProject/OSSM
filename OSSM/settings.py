@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'ossm',
         'USER': 'ossmadmin',
-        'PASSWORD': 'ossmpasswd',
+        'PASSWORD': 'osspasswd',
         'HOST': 'localhost',
         'POST': 3306
     }
@@ -132,5 +132,6 @@ STATICFILES_DIR = (
     ('plugins', os.path.join('plugins', STATIC_ROOT)),
 )
 
-AUTH_USER_MODEL = 'auth.models.MyUser'
+AUTH_USER_MODEL = 'Control.UserProfile'
+
 
