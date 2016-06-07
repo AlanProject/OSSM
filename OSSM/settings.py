@@ -56,7 +56,7 @@ ROOT_URLCONF = 'OSSM.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -124,12 +124,14 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join('statics', BASE_DIR)
-STATICFILES_DIR = (
-    ('css', os.path.join('css', STATIC_ROOT)),
-    ('js', os.path.join('js', STATIC_ROOT)),
-    ('imgs', os.path.join('imgs', STATIC_ROOT)),
-    ('plugins', os.path.join('plugins', STATIC_ROOT)),
+STATIC_ROOT = os.path.join(BASE_DIR, 'statics')
+
+STATICFILES_DIRS = (
+    ('css', os.path.join(STATIC_ROOT, 'css')),
+    ('js', os.path.join(STATIC_ROOT, 'js')),
+    ('imgs', os.path.join(STATIC_ROOT, 'imgs')),
+    ('fonts', os.path.join(STATIC_ROOT, 'fonts')),
+    ('plugins', os.path.join(STATIC_ROOT, 'plugins')),
 )
 
 AUTH_USER_MODEL = 'Control.UserProfile'
