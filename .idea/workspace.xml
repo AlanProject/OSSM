@@ -2,88 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a623e326-93fd-4482-82c2-b0272774c6c0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/fonts/ionicons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/fonts/ionicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/control.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/statics/css/ionicons.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/monitor.html" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\AdminLTE.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\AdminLTE.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\_all-skins.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\_all-skins.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\skin-black-light.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\skin-black-light.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\skin-black.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\skin-black.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\skin-blue-light.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\skin-blue-light.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\skin-blue.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\skin-blue.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\skin-green-light.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\skin-green-light.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\skin-green.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\skin-green.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\skin-purple-light.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\skin-purple-light.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\skin-purple.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\skin-purple.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\skin-red-light.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\skin-red-light.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\skin-red.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\skin-red.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\skin-yellow-light.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\skin-yellow-light.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\skin-yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\css\skins\skin-yellow.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\avatar.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\avatar04.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\avatar2.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\avatar3.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\avatar5.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\boxed-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\boxed-bg.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\credit\american-express.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\credit\cirrus.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\credit\mastercard.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\credit\mestro.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\credit\paypal.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\credit\paypal2.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\credit\visa.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\default-50x50.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\icons.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\photo1.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\photo2.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\photo3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\photo4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\user1-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\user2-160x160.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\user3-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\user4-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\user5-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\user6-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\user7-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\img\user8-128x128.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\js\app.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\js\app.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\js\demo.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\js\pages\dashboard.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\dist\js\pages\dashboard2.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/AdminLTE/pages/examples/404.html" afterPath="$PROJECT_DIR$/templates/AdminLTE/pages/examples/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/AdminLTE/pages/examples/500.html" afterPath="$PROJECT_DIR$/templates/AdminLTE/pages/examples/500.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Control/froms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Control/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/AdminLTE/pages/forms/advanced.html" afterPath="$PROJECT_DIR$/templates/AdminLTE/pages/forms/advanced.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/AdminLTE/pages/examples/blank.html" afterPath="$PROJECT_DIR$/templates/AdminLTE/pages/examples/blank.html" />
@@ -100,16 +20,16 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/AdminLTE/pages/UI/general.html" afterPath="$PROJECT_DIR$/templates/AdminLTE/pages/UI/general.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/AdminLTE/pages/forms/general.html" afterPath="$PROJECT_DIR$/templates/AdminLTE/pages/forms/general.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/AdminLTE/pages/UI/icons.html" afterPath="$PROJECT_DIR$/templates/AdminLTE/pages/UI/icons.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/AdminLTE/documentation/index.html" afterPath="$PROJECT_DIR$/templates/AdminLTE/documentation/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/AdminLTE/pages/charts/inline.html" afterPath="$PROJECT_DIR$/templates/AdminLTE/pages/charts/inline.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/AdminLTE/pages/examples/invoice.html" afterPath="$PROJECT_DIR$/templates/AdminLTE/pages/examples/invoice.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/AdminLTE/pages/examples/lockscreen.html" afterPath="$PROJECT_DIR$/templates/AdminLTE/pages/examples/lockscreen.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/login.html" afterPath="$PROJECT_DIR$/templates/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/AdminLTE/pages/mailbox/mailbox.html" afterPath="$PROJECT_DIR$/templates/AdminLTE/pages/mailbox/mailbox.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/AdminLTE/pages/UI/modals.html" afterPath="$PROJECT_DIR$/templates/AdminLTE/pages/UI/modals.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/AdminLTE/pages/charts/morris.html" afterPath="$PROJECT_DIR$/templates/AdminLTE/pages/charts/morris.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/AdminLTE/pages/examples/pace.html" afterPath="$PROJECT_DIR$/templates/AdminLTE/pages/examples/pace.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/AdminLTE/pages/examples/profile.html" afterPath="$PROJECT_DIR$/templates/AdminLTE/pages/examples/profile.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/AdminLTE/pages/mailbox/read-mail.html" afterPath="$PROJECT_DIR$/templates/AdminLTE/pages/mailbox/read-mail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/register.html" afterPath="$PROJECT_DIR$/templates/register.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/OSSM/settings.py" afterPath="$PROJECT_DIR$/OSSM/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/AdminLTE/pages/tables/simple.html" afterPath="$PROJECT_DIR$/templates/AdminLTE/pages/tables/simple.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/AdminLTE/pages/UI/sliders.html" afterPath="$PROJECT_DIR$/templates/AdminLTE/pages/UI/sliders.html" />
@@ -118,25 +38,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Control/views.py" afterPath="$PROJECT_DIR$/Control/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/AdminLTE/pages/widgets.html" afterPath="$PROJECT_DIR$/templates/AdminLTE/pages/widgets.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\My Doc\Project\Homework\OSSM\index.html" afterPath="$PROJECT_DIR$/templates/index.html.bak" />
-      <change type="MOVED" beforePath="D:\My Doc\Project\Homework\OSSM\index2.html" afterPath="$PROJECT_DIR$/templates/index2.html.bak" />
-      <change type="MOVED" beforePath="D:\My Doc\Project\Homework\OSSM\starter.html" afterPath="$PROJECT_DIR$/templates/starter.html" />
-      <change type="MOVED" beforePath="D:\My Doc\Project\Homework\OSSM\statics\plugins\bootstrap-3.3.5-dist\css\bootstrap-theme.css" afterPath="$PROJECT_DIR$/statics/plugins/bootstrap/css/bootstrap-theme.css" />
-      <change type="MOVED" beforePath="D:\My Doc\Project\Homework\OSSM\statics\plugins\bootstrap-3.3.5-dist\css\bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/statics/plugins/bootstrap/css/bootstrap-theme.css.map" />
-      <change type="MOVED" beforePath="D:\My Doc\Project\Homework\OSSM\statics\plugins\bootstrap-3.3.5-dist\css\bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/statics/plugins/bootstrap/css/bootstrap-theme.min.css" />
-      <change type="MOVED" beforePath="D:\My Doc\Project\Homework\OSSM\statics\plugins\bootstrap-3.3.5-dist\css\bootstrap.css" afterPath="$PROJECT_DIR$/statics/plugins/bootstrap/css/bootstrap.css" />
-      <change type="MOVED" beforePath="D:\My Doc\Project\Homework\OSSM\statics\plugins\bootstrap-3.3.5-dist\css\bootstrap.css.map" afterPath="$PROJECT_DIR$/statics/plugins/bootstrap/css/bootstrap.css.map" />
-      <change type="MOVED" beforePath="D:\My Doc\Project\Homework\OSSM\statics\plugins\bootstrap-3.3.5-dist\css\bootstrap.min.css" afterPath="$PROJECT_DIR$/statics/plugins/bootstrap/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="D:\My Doc\Project\Homework\OSSM\statics\plugins\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/statics/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="D:\My Doc\Project\Homework\OSSM\statics\plugins\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/statics/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="D:\My Doc\Project\Homework\OSSM\statics\plugins\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/statics/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="D:\My Doc\Project\Homework\OSSM\statics\plugins\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/statics/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="D:\My Doc\Project\Homework\OSSM\statics\plugins\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/statics/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="D:\My Doc\Project\Homework\OSSM\statics\plugins\bootstrap-3.3.5-dist\js\bootstrap.js" afterPath="$PROJECT_DIR$/statics/plugins/bootstrap/js/bootstrap.js" />
-      <change type="MOVED" beforePath="D:\My Doc\Project\Homework\OSSM\statics\plugins\bootstrap-3.3.5-dist\js\bootstrap.min.js" afterPath="$PROJECT_DIR$/statics/plugins/bootstrap/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="D:\My Doc\Project\Homework\OSSM\statics\plugins\bootstrap-3.3.5-dist\js\npm.js" afterPath="$PROJECT_DIR$/statics/plugins/bootstrap/js/npm.js" />
-      <change type="MOVED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\pages\examples\login.html" afterPath="$PROJECT_DIR$/templates/login.html" />
-      <change type="MOVED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\pages\examples\register.html" afterPath="$PROJECT_DIR$/templates/register.html" />
+      <change type="MOVED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\pages\examples\404.html" afterPath="$PROJECT_DIR$/templates/404.html" />
+      <change type="MOVED" beforePath="D:\My Doc\Project\Homework\OSSM\templates\AdminLTE\pages\examples\500.html" afterPath="$PROJECT_DIR$/templates/500.html" />
     </list>
     <ignored path="OSSM.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -158,54 +61,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.2105262">
+              <caret line="364" column="46" selection-start-line="364" selection-start-column="46" selection-end-line="364" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/OSSM/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
               <folding>
-                <element signature="e#637#669#0" expanded="true" />
+                <element signature="e#637#677#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41740674">
-              <caret line="61" column="67" selection-start-line="61" selection-start-column="67" selection-end-line="61" selection-end-column="67" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.666666">
-              <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Control/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OSSM/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.8147268">
+              <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#266#304#0" expanded="false" />
+                <element signature="e#331#367#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -244,14 +131,16 @@
         <option value="$PROJECT_DIR$/statics/css/AdminLTE.css" />
         <option value="$PROJECT_DIR$/statics/css/AdminLTE.min.css" />
         <option value="$PROJECT_DIR$/statics/css/font-awesome.css" />
-        <option value="$PROJECT_DIR$/OSSM/settings.py" />
         <option value="$PROJECT_DIR$/templates/index2.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/Control/views.py" />
         <option value="$PROJECT_DIR$/templates/login.html" />
-        <option value="$PROJECT_DIR$/OSSM/urls.py" />
         <option value="$PROJECT_DIR$/templates/register.html" />
+        <option value="$PROJECT_DIR$/Control/froms.py" />
+        <option value="$PROJECT_DIR$/OSSM/settings.py" />
+        <option value="$PROJECT_DIR$/Control/urls.py" />
+        <option value="$PROJECT_DIR$/Control/views.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/OSSM/urls.py" />
       </list>
     </option>
   </component>
@@ -322,6 +211,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSSM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="OSSM" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AdminLTE" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -686,7 +593,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1790451" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.403183" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37400532" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -718,7 +625,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="Custom auth models" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -734,6 +643,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="47" column="12" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="12" />
+          <folding>
+            <element signature="e#22#50#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -741,6 +653,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3583461">
           <caret line="13" column="55" selection-start-line="13" selection-start-column="55" selection-end-line="13" selection-end-column="55" />
+          <folding>
+            <element signature="e#110#149#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -748,6 +663,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.7212863">
           <caret line="142" column="8" selection-start-line="142" selection-start-column="8" selection-end-line="142" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -769,13 +685,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Control/auth/auth_models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.1668966">
-          <caret line="47" column="12" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -806,6 +715,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.07809111">
           <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -852,14 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OSSM/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -936,28 +838,99 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
+    <entry file="file://$PROJECT_DIR$/templates/AdminLTE/pages/examples/blank.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94051445">
-          <caret line="343" column="21" selection-start-line="343" selection-start-column="21" selection-end-line="343" selection-end-column="21" />
+        <state vertical-scroll-proportion="-8.536412">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/plugins/iCheck/icheck.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.718868">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
           <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Control/views.py">
+    <entry file="file://C:/Python27/Lib/site-packages/django/forms/fields.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3321976">
+          <caret line="224" column="8" selection-start-line="224" selection-start-column="8" selection-end-line="224" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/django/forms/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3321976">
+          <caret line="403" column="8" selection-start-line="403" selection-start-column="8" selection-end-line="403" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Control/auth/auth_models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Control/froms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.62963">
+          <caret line="46" column="83" selection-start-line="46" selection-start-column="83" selection-end-line="46" selection-end-column="83" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#3;n#form#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.666666">
-          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        <state vertical-scroll-proportion="-18.666666">
+          <caret line="55" column="22" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OSSM/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3324138">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Control/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28965518">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="13" selection-end-column="53" />
+          <folding>
+            <element signature="e#44#76#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2105262">
+          <caret line="364" column="46" selection-start-line="364" selection-start-column="46" selection-end-line="364" selection-end-column="46" />
           <folding />
         </state>
       </provider>
@@ -965,18 +938,22 @@
     <entry file="file://$PROJECT_DIR$/OSSM/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
           <folding>
-            <element signature="e#637#669#0" expanded="true" />
+            <element signature="e#637#677#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/register.html">
+    <entry file="file://$PROJECT_DIR$/Control/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41740674">
-          <caret line="61" column="67" selection-start-line="61" selection-start-column="67" selection-end-line="61" selection-end-column="67" />
-          <folding />
+        <state vertical-scroll-proportion="0.8147268">
+          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#266#304#0" expanded="false" />
+            <element signature="e#331#367#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

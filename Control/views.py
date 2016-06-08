@@ -1,5 +1,7 @@
-from django.shortcuts import render
-
+from django.shortcuts import render,Http404
+from Control import models
+from Control.models import auth_models
+from Control.froms import Register
 # Create your views here.
 
 
@@ -16,4 +18,19 @@ def login(request):
 
 
 def register(request):
-    return render(request, 'register.html')
+    froms_data = ''
+    if request.method == "POST":
+        froms_data = Register(request.POST)
+        if froms_data.is_valid():
+            request_from = froms_data.clean()
+            name = request_from.get('name')
+            email = request_from.get('email')
+            passwd = request_from.get('passwd')
+            auth_models.UserProfile.objects.create_user(email, name, passwd)
+    return render(request, 'register.html', {'request_from': froms_data})
+
+def pages(request):
+    if request.method == 'GET':
+        pags= request.GET.get('pags')
+        type= request.GET.get('type')
+        return render(request, 'AdminLTE/pages/%s/%s' %(type, pags))

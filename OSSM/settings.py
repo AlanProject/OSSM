@@ -135,5 +135,3 @@ STATICFILES_DIRS = (
 )
 
 AUTH_USER_MODEL = 'Control.UserProfile'
-
-
