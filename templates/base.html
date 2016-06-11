@@ -316,26 +316,28 @@
                 <li class="header">MAIN NAVIGATION</li>
                 <li class="active treeview">
                   <a href="#">
-                    <i class="fa fa-dashboard"></i> <span>控制面板</span> <i class="fa fa-angle-left pull-right"></i>
+                    <i class="fa fa-dashboard"></i> <span>主机监控</span> <i class="fa fa-angle-left pull-right"></i>
                   </a>
                   <ul class="treeview-menu">
                     <li><a href="{% url 'control' %}"><i class="fa fa-circle-o"></i>主机管理</a></li>
                     <li class="active"><a href="{% url 'monitor' %}"><i class="fa fa-circle-o"></i>监控</a></li>
                   </ul>
                 </li>
+
                 <li class="treeview">
                   <a href="#">
-                    <i class="fa fa-files-o"></i>
-                    <span>Layout Options</span>
+                    <i class="fa fa-server"></i>
+                    <span>主机管理</span>
                     <span class="label label-primary pull-right">4</span>
                   </a>
                   <ul class="treeview-menu">
-                    <li><a href="pages/layout/top-nav.html"><i class="fa fa-circle-o"></i> Top Navigation</a></li>
+                    <li><a href="{% url 'host_list' %}"><i class="fa fa-circle-o"></i>主机列表</a></li>
                     <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Boxed</a></li>
                     <li><a href="pages/layout/fixed.html"><i class="fa fa-circle-o"></i> Fixed</a></li>
                     <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
                   </ul>
                 </li>
+
                 <li>
                   <a href="pages/widgets.html">
                     <i class="fa fa-th"></i> <span>Widgets</span>
@@ -362,12 +364,12 @@
                     <i class="fa fa-angle-left pull-right"></i>
                   </a>
                   <ul class="treeview-menu">
-                    <li><a href="{% url 'pages' %}?type='UI'&pags='general.html'"><i class="fa fa-circle-o"></i> General</a></li>
-                    <li><a href="{% url 'pages' %}?type='UI'&pags='icons.html'"><i class="fa fa-circle-o"></i> Icons</a></li>
-                    <li><a href="{% url 'pages' %}?type='UI'&pags='buttons.html'"><i class="fa fa-circle-o"></i> Buttons</a></li>
-                    <li><a href="{% url 'pages' %}?type='UI'&pags='sliders.html'"><i class="fa fa-circle-o"></i> Sliders</a></li>
-                    <li><a href="{% url 'pages' %}?type='UI'&pags='timeline.html'"><i class="fa fa-circle-o"></i> Timeline</a></li>
-                    <li><a href="{% url 'pages' %}?type='UI'&pags='modals.html'"><i class="fa fa-circle-o"></i> Modals</a></li>
+                    <li><a href="{% url 'pages' %}?type=UI&pag=general"><i class="fa fa-circle-o"></i> General</a></li>
+                    <li><a href="{% url 'pages' %}?type=UI&pag=icons"><i class="fa fa-circle-o"></i> Icons</a></li>
+                    <li><a href="{% url 'pages' %}?type=UI&pag=buttons"><i class="fa fa-circle-o"></i> Buttons</a></li>
+                    <li><a href="{% url 'pages' %}?type=UI&pag=sliders"><i class="fa fa-circle-o"></i> Sliders</a></li>
+                    <li><a href="{% url 'pages' %}?type=UI&pag=timeline"><i class="fa fa-circle-o"></i> Timeline</a></li>
+                    <li><a href="{% url 'pages' %}?type=UI&pag=modals"><i class="fa fa-circle-o"></i> Modals</a></li>
                   </ul>
                 </li>
                 <li class="treeview">
@@ -376,9 +378,9 @@
                     <i class="fa fa-angle-left pull-right"></i>
                   </a>
                   <ul class="treeview-menu">
-                    <li><a href="pages/forms/general.html"><i class="fa fa-circle-o"></i> General Elements</a></li>
-                    <li><a href="pages/forms/advanced.html"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
-                    <li><a href="pages/forms/editors.html"><i class="fa fa-circle-o"></i> Editors</a></li>
+                    <li><a href="{% url 'pages' %}?type=forms&pag=general"><i class="fa fa-circle-o"></i> General Elements</a></li>
+                    <li><a href="{% url 'pages' %}?type=forms&pag=advanced"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
+                    <li><a href="{% url 'pages' %}?type=forms&pag=editors"><i class="fa fa-circle-o"></i> Editors</a></li>
                   </ul>
                 </li>
                 <li class="treeview">
@@ -387,8 +389,8 @@
                     <i class="fa fa-angle-left pull-right"></i>
                   </a>
                   <ul class="treeview-menu">
-                    <li><a href="pages/tables/simple.html"><i class="fa fa-circle-o"></i> Simple tables</a></li>
-                    <li><a href="pages/tables/data.html"><i class="fa fa-circle-o"></i> Data tables</a></li>
+                    <li><a href="{% url 'pages' %}?type=tables&pag=simple"><i class="fa fa-circle-o"></i> Simple tables</a></li>
+                    <li><a href="{% url 'pages' %}?type=tables&pag=data"><i class="fa fa-circle-o"></i> Data tables</a></li>
                   </ul>
                 </li>
                 <li>
@@ -455,16 +457,7 @@
           <!-- Content Wrapper. Contains page content -->
           <div class="content-wrapper">
             <!-- Content Header (Page header) -->
-            <section class="content-header">
-              <h1>
-                Dashboard
-                <small>Version 2.0</small>
-              </h1>
-              <ol class="breadcrumb">
-                <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-                <li class="active">Dashboard</li>
-              </ol>
-            </section>
+
             {% block body_template %}
             {% endblock %}
             <!-- /.content-wrapper -->
