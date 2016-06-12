@@ -1,4 +1,4 @@
-from django.shortcuts import render,Http404
+from django.shortcuts import render,Http404,HttpResponse
 from Control import models
 from Control.models import auth_models
 from Control.froms import Register
@@ -31,6 +31,8 @@ def register(request):
 
 def pages(request):
     if request.method == 'GET':
-        pags= request.GET.get('pags')
-        type= request.GET.get('type')
-        return render(request, 'AdminLTE/pages/%s/%s' %(type, pags))
+        pag = request.GET.get('pag')
+        type = request.GET.get('type')
+        return render(request, 'AdminLTE/pages/%s/%s.html' %(type, pag))
+def host_list(request):
+    return render(request, 'Control/host_list.html')

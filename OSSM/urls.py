@@ -21,6 +21,7 @@ urlpatterns = [
     url(r'^monitor/', views.monitor, name='monitor'),
     url(r'^login/', views.login, name='login'),
     url(r'^register/', views.register, name='register'),
-    url(r'^pages/$', views.pages),
+    url(r'^pages/', views.pages, name='pages'),
+    url(r'^Control/', include('Control.urls')),
     url(r'^$', views.control, name='control'),
 ]
