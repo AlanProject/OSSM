@@ -32,20 +32,20 @@
   <!-- /.login-logo -->
   <div class="login-box-body">
     <p class="login-box-msg">Sign in to start your session</p>
-    <form action="{% url 'control' %}" method="post">{% csrf_token %}
+    <form action="{% url 'login' %}" method="post">{% csrf_token %}
       <div class="form-group has-feedback">
-        <input type="email" class="form-control" placeholder="Email">
+        <input type="email" name="email" class="form-control" placeholder="Email">
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
-        <input type="password" class="form-control" placeholder="Password">
+        <input type="password" class="form-control" name='password' placeholder="Password">
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
       </div>
       <div class="row">
         <div class="col-xs-8">
           <div class="checkbox icheck">
             <label>
-              <input type="checkbox"> Remember Me
+              <input type="checkbox" checked="checked"> Remember Me
             </label>
           </div>
         </div>
@@ -54,16 +54,25 @@
           <button type="submit" class="btn btn-primary btn-block btn-flat">登陆</button>
         </div>
         <!-- /.col -->
+          <div class="col-xs-12">
+              <a style="color:red;font-size:14px;">{{ err_msg }}</a>
+          </div>
       </div>
     </form>
     {#第三方登陆模块#}
-    {#    <div class="social-auth-links text-center">#}
-    {#      <p>- OR -</p>#}
-    {#    </div>#}
+{#        <div class="social-auth-links text-center">#}
+{#          <p>- OR -</p>#}
+{#        </div>#}
         <!-- /.social-auth-links -->
-    <a href="#">I forgot my password</a><br>
-    <a href="{% url 'register' %}" class="text-center">注册用户</a>
-
+    {# 登陆框下方提示信息#}
+    <div class="row">
+      <div class="col-xs-6">
+          <a href="#">忘记密码？</a><br>
+      </div>
+      <div class="col-xs-6">
+          <a href="{% url 'register' %}" class="text-center">注册用户</a>
+      </div>
+    </div>
   </div>
   <!-- /.login-box-body -->
 </div>
@@ -74,7 +83,7 @@
 <!-- Bootstrap 3.3.6 -->
 <script src="/static/plugins/bootstrap/js/bootstrap.min.js"></script>
 <!-- iCheck -->
-<script src="/static/plugins/plugins/iCheck/icheck.min.js"></script>
+<script src="/static/plugins/iCheck/icheck.min.js"></script>
 <script>
   $(function () {
     $('input').iCheck({

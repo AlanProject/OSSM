@@ -19,7 +19,8 @@ from Control import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^monitor/', views.monitor, name='monitor'),
-    url(r'^login/', views.login, name='login'),
+    url(r'^login/', views.acc_login, name='login'),
+    url(r'^logout/', views.acc_logout, name='logout'),
     url(r'^register/', views.register, name='register'),
     url(r'^pages/', views.pages, name='pages'),
     url(r'^Control/', include('Control.urls')),

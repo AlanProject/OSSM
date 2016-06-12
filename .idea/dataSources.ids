@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - ossm@localhost" uuid="8af4c842-3558-48f7-8f38-e93dddd035e6">
+    <database-info product="MySQL" version="5.5.20" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <schema name="" catalog="ossm"/>
+    <table name="auth_group" schema="" catalog="ossm" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" precision="80" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="auth_group_permissions_group_id_b120cbf9_fk_auth_group_id" table="auth_group_permissions" schema="" catalog="ossm" columns="group_id"/>
+      <index name="name" unique="true" columns="name"/>
+    </table>
+    <table name="auth_group_permissions" schema="" catalog="ossm" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="group_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="permission_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="auth_group_permissi_permission_id_84c5c92e_fk_auth_permission_id" columns="permission_id" ref-table="auth_permission" ref-schema="" ref-catalog="ossm" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="auth_group_permissions_group_id_b120cbf9_fk_auth_group_id" columns="group_id" ref-table="auth_group" ref-schema="" ref-catalog="ossm" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="auth_group_permissions_group_id_0cd325b0_uniq" unique="true" columns="group_id,permission_id"/>
+      <index name="auth_group_permissi_permission_id_84c5c92e_fk_auth_permission_id" unique="false" columns="permission_id"/>
+    </table>
+    <table name="auth_permission" schema="" catalog="ossm" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="content_type_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="codename" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="auth_permissi_content_type_id_2f476e4b_fk_django_content_type_id" columns="content_type_id" ref-table="django_content_type" ref-schema="" ref-catalog="ossm" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="auth_group_permissi_permission_id_84c5c92e_fk_auth_permission_id" table="auth_group_permissions" schema="" catalog="ossm" columns="permission_id"/>
+      <index name="auth_permission_content_type_id_01ab375a_uniq" unique="true" columns="content_type_id,codename"/>
+    </table>
+    <table name="control_hostgroup" schema="" catalog="ossm" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="Name" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="Control_userauthor_hostgroup_id_9934a755_fk_Control_hostgroup_id" table="control_userauthorized_hostgroup" schema="" catalog="ossm" columns="hostgroup_id"/>
+      <index name="Name" unique="true" columns="Name"/>
+    </table>
+    <table name="control_hostinfo" schema="" catalog="ossm" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="HostName" sqlType="VARCHAR" precision="128" scale="0" nullable="false" jdbcType="12"/>
+      <column name="System" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12"/>
+      <column name="Port" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="IpAddress" sqlType="CHAR" precision="39" scale="0" nullable="false" jdbcType="1"/>
+      <column name="NetMask" sqlType="CHAR" precision="39" scale="0" nullable="false" jdbcType="1"/>
+      <column name="Status" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12"/>
+      <column name="Memo" sqlType="VARCHAR" precision="128" scale="0" nullable="true" jdbcType="12"/>
+      <column name="Idc_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="Control_hostinfo_Idc_id_d217d50e_fk_Control_idc_id" columns="Idc_id" ref-table="control_idc" ref-schema="" ref-catalog="ossm" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="IpAddress" unique="true" columns="IpAddress"/>
+      <index name="Control_hostinfo_e5a27929" unique="false" columns="Idc_id"/>
+    </table>
+    <table name="control_hostuser" schema="" catalog="ossm" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="UserName" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12"/>
+      <column name="PassWord" sqlType="VARCHAR" precision="256" scale="0" nullable="true" jdbcType="12"/>
+      <column name="AuthType" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="control_idc" schema="" catalog="ossm" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="Name" sqlType="VARCHAR" precision="64" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="Control_hostinfo_Idc_id_d217d50e_fk_Control_idc_id" table="control_hostinfo" schema="" catalog="ossm" columns="Idc_id"/>
+      <index name="Name" unique="true" columns="Name"/>
+    </table>
+    <table name="control_userauthorized" schema="" catalog="ossm" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="Control__userauthorized_id_4e199b1b_fk_Control_userauthorized_id" table="control_userauthorized_hostgroup" schema="" catalog="ossm" columns="userauthorized_id"/>
+    </table>
+    <table name="control_userauthorized_hostgroup" schema="" catalog="ossm" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="userauthorized_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="hostgroup_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="Control_userauthor_hostgroup_id_9934a755_fk_Control_hostgroup_id" columns="hostgroup_id" ref-table="control_hostgroup" ref-schema="" ref-catalog="ossm" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="Control__userauthorized_id_4e199b1b_fk_Control_userauthorized_id" columns="userauthorized_id" ref-table="control_userauthorized" ref-schema="" ref-catalog="ossm" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="Control_userauthorized_HostGroup_userauthorized_id_92b57e1f_uniq" unique="true" columns="userauthorized_id,hostgroup_id"/>
+      <index name="Control_userauthor_hostgroup_id_9934a755_fk_Control_hostgroup_id" unique="false" columns="hostgroup_id"/>
+    </table>
+    <table name="control_userprofile" schema="" catalog="ossm" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="password" sqlType="VARCHAR" precision="128" scale="0" nullable="false" jdbcType="12"/>
+      <column name="last_login" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="email" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="name" sqlType="VARCHAR" precision="128" scale="0" nullable="false" jdbcType="12"/>
+      <column name="is_active" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <column name="is_admin" sqlType="TINYINT" precision="3" scale="0" nullable="false" jdbcType="-6"/>
+      <column name="department" sqlType="VARCHAR" precision="128" scale="0" nullable="false" jdbcType="12"/>
+      <column name="position" sqlType="VARCHAR" precision="128" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="django_admin_log_user_id_c564eba6_fk_Control_userprofile_id" table="django_admin_log" schema="" catalog="ossm" columns="user_id"/>
+      <index name="email" unique="true" columns="email"/>
+    </table>
+    <table name="django_admin_log" schema="" catalog="ossm" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="action_time" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <column name="object_id" sqlType="LONGTEXT" precision="2147483647" scale="0" nullable="true" jdbcType="-1"/>
+      <column name="object_repr" sqlType="VARCHAR" precision="200" scale="0" nullable="false" jdbcType="12"/>
+      <column name="action_flag" sqlType="SMALLINT UNSIGNED" precision="5" scale="0" nullable="false" jdbcType="5"/>
+      <column name="change_message" sqlType="LONGTEXT" precision="2147483647" scale="0" nullable="false" jdbcType="-1"/>
+      <column name="content_type_id" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="user_id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <foreign-key name="django_admin_log_user_id_c564eba6_fk_Control_userprofile_id" columns="user_id" ref-table="control_userprofile" ref-schema="" ref-catalog="ossm" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="django_admin__content_type_id_c4bce8eb_fk_django_content_type_id" columns="content_type_id" ref-table="django_content_type" ref-schema="" ref-catalog="ossm" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="django_admin__content_type_id_c4bce8eb_fk_django_content_type_id" unique="false" columns="content_type_id"/>
+      <index name="django_admin_log_user_id_c564eba6_fk_Control_userprofile_id" unique="false" columns="user_id"/>
+    </table>
+    <table name="django_content_type" schema="" catalog="ossm" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="app_label" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12"/>
+      <column name="model" sqlType="VARCHAR" precision="100" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="id"/>
+      <exported-key name="auth_permissi_content_type_id_2f476e4b_fk_django_content_type_id" table="auth_permission" schema="" catalog="ossm" columns="content_type_id"/>
+      <exported-key name="django_admin__content_type_id_c4bce8eb_fk_django_content_type_id" table="django_admin_log" schema="" catalog="ossm" columns="content_type_id"/>
+      <index name="django_content_type_app_label_76bd3d3b_uniq" unique="true" columns="app_label,model"/>
+    </table>
+    <table name="django_migrations" schema="" catalog="ossm" type="TABLE">
+      <column name="id" sqlType="INT" precision="10" scale="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="app" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="name" sqlType="VARCHAR" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="applied" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <primary-key name="PRIMARY" columns="id"/>
+    </table>
+    <table name="django_session" schema="" catalog="ossm" type="TABLE">
+      <column name="session_key" sqlType="VARCHAR" precision="40" scale="0" nullable="false" jdbcType="12"/>
+      <column name="session_data" sqlType="LONGTEXT" precision="2147483647" scale="0" nullable="false" jdbcType="-1"/>
+      <column name="expire_date" sqlType="DATETIME" precision="19" scale="0" nullable="false" jdbcType="93"/>
+      <primary-key name="PRIMARY" columns="session_key"/>
+      <index name="django_session_de54fa62" unique="false" columns="expire_date"/>
+    </table>
+  </data-source>
+</component>

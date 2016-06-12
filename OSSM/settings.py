@@ -135,3 +135,4 @@ STATICFILES_DIRS = (
 )
 
 AUTH_USER_MODEL = 'Control.UserProfile'
+LOGIN_URL = '/login/'
