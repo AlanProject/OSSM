@@ -314,7 +314,26 @@
               <!-- sidebar menu: : style can be found in sidebar.less -->
               <ul class="sidebar-menu">
                 <li class="header">MAIN NAVIGATION</li>
+
+                {#主机管理部分#}
                 <li class="active treeview">
+                  <a href="#">
+                    <i class="fa fa-server"></i>
+                    <span>主机管理</span>
+                    <i class="fa fa-angle-left pull-right"></i>
+                    {#消息提醒小模块#}
+                    {#<span class="label label-primary pull-right">4</span>#}
+                  </a>
+                  <ul class="treeview-menu">
+                    <li><a href="{% url 'host_list' %}"><i class="fa fa-circle-o"></i>主机列表</a></li>
+                    <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i>命令执行</a></li>
+                    <li><a href="pages/layout/fixed.html"><i class="fa fa-circle-o"></i>PlayBook</a></li>
+                    <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i>日志审计</a></li>
+                  </ul>
+                </li>
+
+                {#监控部分#}
+                  <li class=" treeview">
                   <a href="#">
                     <i class="fa fa-dashboard"></i> <span>主机监控</span> <i class="fa fa-angle-left pull-right"></i>
                   </a>
@@ -324,26 +343,14 @@
                   </ul>
                 </li>
 
-                <li class="treeview">
-                  <a href="#">
-                    <i class="fa fa-server"></i>
-                    <span>主机管理</span>
-                    <span class="label label-primary pull-right">4</span>
-                  </a>
-                  <ul class="treeview-menu">
-                    <li><a href="{% url 'host_list' %}"><i class="fa fa-circle-o"></i>主机列表</a></li>
-                    <li><a href="pages/layout/boxed.html"><i class="fa fa-circle-o"></i> Boxed</a></li>
-                    <li><a href="pages/layout/fixed.html"><i class="fa fa-circle-o"></i> Fixed</a></li>
-                    <li><a href="pages/layout/collapsed-sidebar.html"><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
-                  </ul>
-                </li>
 
-                <li>
+               <li>
                   <a href="pages/widgets.html">
                     <i class="fa fa-th"></i> <span>Widgets</span>
                     <small class="label pull-right bg-green">new</small>
                   </a>
                 </li>
+
                 <li class="treeview">
                   <a href="#">
                     <i class="fa fa-pie-chart"></i>
